@@ -16,4 +16,4 @@ export const login = async (dispatch, user) => {
 };
 
 
-export const url = "https://nbatestapp.onrender.com/api/";
+export const url = "https://nbatestapp.onrender.com/api";
