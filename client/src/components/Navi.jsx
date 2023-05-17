@@ -10,7 +10,7 @@ const Navi = () => {
           <ul>
             <li>
               <Link to="/">
-                <a>Home</a>
+                <span>Home</span>
               </Link>
             </li>
             <li>
@@ -47,7 +47,7 @@ const Navi = () => {
               </div>
             </li>
             <li>
-              <a>Hoodies</a>
+              <span>Hoodies</span>
               <div className="sub_menu ">
                 <div className="col ">
                   <Link to="/products/hoodies">
@@ -81,7 +81,7 @@ const Navi = () => {
               </div>
             </li>
             <li>
-              <a>T-Shirts</a>
+              <span>T-Shirts</span>
               <div className="sub_menu">
                 <div className="col">
                   <Link to="/products/t-shirts">
@@ -116,7 +116,7 @@ const Navi = () => {
               </div>
             </li>
             <li>
-              <a>FootWear</a>
+              <span>FootWear</span>
               <div className="sub_menu">
                 <div className="col">
                   <Link to="/products/shoes">
