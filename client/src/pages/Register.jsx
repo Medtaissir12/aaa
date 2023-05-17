@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
