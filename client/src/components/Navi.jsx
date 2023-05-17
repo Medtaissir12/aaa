@@ -14,7 +14,7 @@ const Navi = () => {
               </Link>
             </li>
             <li>
-              <a>Jersys</a>
+              <span>Jersys</span>
               <div className="sub_menu">
                 <div class="col">
                   <Link to="/products/Jersey">
