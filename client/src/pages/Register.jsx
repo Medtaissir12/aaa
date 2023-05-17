@@ -181,10 +181,12 @@ const Register = () => {
             <Modal.Title>Success!</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <Alert variant="success">
-              <i className="bi bi-check-circle-fill"></i> Your account has been
-              created successfully.
-            </Alert>
+            {showAlert && (
+              <Alert variant="success">
+                <i className="bi bi-check-circle-fill"></i> Your account has
+                been created successfully.
+              </Alert>
+            )}
           </Modal.Body>
         </Modal>
         <Wrapper>
